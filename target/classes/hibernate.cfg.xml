@@ -10,7 +10,7 @@
 		<property name="connection.password">Google@1234_</property>
 		<property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
 		<property name="show_sql">true</property>
-		<property name="hbm2ddl.auto">create</property>
+		<property name="hbm2ddl.auto">update</property>
 		<mapping class="com.tut.Student" />
 		<mapping class="com.tut.Address" />
 		<mapping class="com.map.Answer" />
